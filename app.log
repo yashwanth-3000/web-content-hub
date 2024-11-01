@@ -1,0 +1,406 @@
+2024-10-18 18:32:07,042 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5055
+ * Running on http://192.168.29.168:5055 - Line 97 in _internal.py
+2024-10-18 18:32:07,042 [INFO] [33mPress CTRL+C to quit[0m - Line 97 in _internal.py
+2024-10-18 18:32:42,672 [INFO] 192.168.29.168 - - [18/Oct/2024 18:32:42] "GET / HTTP/1.1" 200 - - Line 97 in _internal.py
+2024-10-18 18:33:33,908 [INFO] 127.0.0.1 - - [18/Oct/2024 18:33:33] "OPTIONS /health HTTP/1.1" 200 - - Line 97 in _internal.py
+2024-10-18 18:33:33,914 [INFO] 127.0.0.1 - - [18/Oct/2024 18:33:33] "OPTIONS /health HTTP/1.1" 200 - - Line 97 in _internal.py
+2024-10-18 18:33:33,927 [INFO] 127.0.0.1 - - [18/Oct/2024 18:33:33] "GET /health HTTP/1.1" 200 - - Line 97 in _internal.py
+2024-10-18 18:33:33,928 [INFO] 127.0.0.1 - - [18/Oct/2024 18:33:33] "GET /health HTTP/1.1" 200 - - Line 97 in _internal.py
+2024-10-18 18:33:33,937 [INFO] 127.0.0.1 - - [18/Oct/2024 18:33:33] "OPTIONS /generate HTTP/1.1" 200 - - Line 97 in _internal.py
+2024-10-18 18:33:33,941 [INFO] 127.0.0.1 - - [18/Oct/2024 18:33:33] "OPTIONS /generate HTTP/1.1" 200 - - Line 97 in _internal.py
+2024-10-18 18:33:33,955 [INFO] Starting story generation for prompt: a story on batman... - Line 160 in app.py
+2024-10-18 18:33:33,957 [INFO] Starting story generation for prompt: a story on batman... - Line 160 in app.py
+2024-10-18 18:33:33,958 [ERROR] StoryGenerationError: {'error': True, 'message': "Error during story generation: agents_workflow() got an unexpected keyword argument 'prompt'", 'error_code': 'GENERATION_ERROR', 'location': 'generate:workflow_execution', 'timestamp': '2024-10-18T18:33:33.957994', 'type': 'StoryGenerationError'} - Line 51 in app.py
+2024-10-18 18:33:33,958 [ERROR] StoryGenerationError: {'error': True, 'message': "Error during story generation: agents_workflow() got an unexpected keyword argument 'prompt'", 'error_code': 'GENERATION_ERROR', 'location': 'generate:workflow_execution', 'timestamp': '2024-10-18T18:33:33.958309', 'type': 'StoryGenerationError'} - Line 51 in app.py
+2024-10-18 18:33:33,959 [INFO] 127.0.0.1 - - [18/Oct/2024 18:33:33] "[35m[1mPOST /generate HTTP/1.1[0m" 500 - - Line 97 in _internal.py
+2024-10-18 18:33:33,961 [INFO] 127.0.0.1 - - [18/Oct/2024 18:33:33] "[35m[1mPOST /generate HTTP/1.1[0m" 500 - - Line 97 in _internal.py
+2024-10-18 18:36:24,307 [INFO] 127.0.0.1 - - [18/Oct/2024 18:36:24] "OPTIONS /health HTTP/1.1" 200 - - Line 97 in _internal.py
+2024-10-18 18:36:24,308 [INFO] 127.0.0.1 - - [18/Oct/2024 18:36:24] "OPTIONS /health HTTP/1.1" 200 - - Line 97 in _internal.py
+2024-10-18 18:36:24,312 [INFO] 127.0.0.1 - - [18/Oct/2024 18:36:24] "GET /health HTTP/1.1" 200 - - Line 97 in _internal.py
+2024-10-18 18:36:24,313 [INFO] 127.0.0.1 - - [18/Oct/2024 18:36:24] "GET /health HTTP/1.1" 200 - - Line 97 in _internal.py
+2024-10-18 18:36:24,318 [INFO] 127.0.0.1 - - [18/Oct/2024 18:36:24] "OPTIONS /generate HTTP/1.1" 200 - - Line 97 in _internal.py
+2024-10-18 18:36:24,320 [INFO] 127.0.0.1 - - [18/Oct/2024 18:36:24] "OPTIONS /generate HTTP/1.1" 200 - - Line 97 in _internal.py
+2024-10-18 18:36:24,325 [INFO] Starting story generation for prompt: a story on batman... - Line 160 in app.py
+2024-10-18 18:36:24,327 [ERROR] StoryGenerationError: {'error': True, 'message': "Error during story generation: agents_workflow() got an unexpected keyword argument 'prompt'", 'error_code': 'GENERATION_ERROR', 'location': 'generate:workflow_execution', 'timestamp': '2024-10-18T18:36:24.327103', 'type': 'StoryGenerationError'} - Line 51 in app.py
+2024-10-18 18:36:24,331 [INFO] 127.0.0.1 - - [18/Oct/2024 18:36:24] "[35m[1mPOST /generate HTTP/1.1[0m" 500 - - Line 97 in _internal.py
+2024-10-18 18:36:24,336 [INFO] Starting story generation for prompt: a story on batman... - Line 160 in app.py
+2024-10-18 18:36:24,337 [ERROR] StoryGenerationError: {'error': True, 'message': "Error during story generation: agents_workflow() got an unexpected keyword argument 'prompt'", 'error_code': 'GENERATION_ERROR', 'location': 'generate:workflow_execution', 'timestamp': '2024-10-18T18:36:24.337461', 'type': 'StoryGenerationError'} - Line 51 in app.py
+2024-10-18 18:36:24,339 [INFO] 127.0.0.1 - - [18/Oct/2024 18:36:24] "[35m[1mPOST /generate HTTP/1.1[0m" 500 - - Line 97 in _internal.py
+2024-10-18 18:37:29,499 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5055
+ * Running on http://192.168.29.168:5055 - Line 97 in _internal.py
+2024-10-18 18:37:29,500 [INFO] [33mPress CTRL+C to quit[0m - Line 97 in _internal.py
+2024-10-18 18:37:44,627 [INFO] 127.0.0.1 - - [18/Oct/2024 18:37:44] "OPTIONS /health HTTP/1.1" 200 - - Line 97 in _internal.py
+2024-10-18 18:37:44,629 [INFO] 127.0.0.1 - - [18/Oct/2024 18:37:44] "OPTIONS /health HTTP/1.1" 200 - - Line 97 in _internal.py
+2024-10-18 18:37:44,631 [INFO] 127.0.0.1 - - [18/Oct/2024 18:37:44] "GET /health HTTP/1.1" 200 - - Line 97 in _internal.py
+2024-10-18 18:37:44,632 [INFO] 127.0.0.1 - - [18/Oct/2024 18:37:44] "GET /health HTTP/1.1" 200 - - Line 97 in _internal.py
+2024-10-18 18:37:44,635 [INFO] 127.0.0.1 - - [18/Oct/2024 18:37:44] "OPTIONS /generate HTTP/1.1" 200 - - Line 97 in _internal.py
+2024-10-18 18:37:44,635 [INFO] 127.0.0.1 - - [18/Oct/2024 18:37:44] "OPTIONS /generate HTTP/1.1" 200 - - Line 97 in _internal.py
+2024-10-18 18:37:44,640 [INFO] Starting story generation for prompt: a story on batman... - Line 159 in app.py
+2024-10-18 18:37:44,640 [INFO] Starting story generation for prompt: a story on batman... - Line 159 in app.py
+2024-10-18 18:37:44,640 [ERROR] StoryGenerationError: {'error': True, 'message': "Error during story generation: agents_workflow() got an unexpected keyword argument 'story_prompt'", 'error_code': 'GENERATION_ERROR', 'location': 'generate:workflow_execution', 'timestamp': '2024-10-18T18:37:44.640919', 'type': 'StoryGenerationError'} - Line 51 in app.py
+2024-10-18 18:37:44,641 [ERROR] StoryGenerationError: {'error': True, 'message': "Error during story generation: agents_workflow() got an unexpected keyword argument 'story_prompt'", 'error_code': 'GENERATION_ERROR', 'location': 'generate:workflow_execution', 'timestamp': '2024-10-18T18:37:44.641104', 'type': 'StoryGenerationError'} - Line 51 in app.py
+2024-10-18 18:37:44,641 [INFO] 127.0.0.1 - - [18/Oct/2024 18:37:44] "[35m[1mPOST /generate HTTP/1.1[0m" 500 - - Line 97 in _internal.py
+2024-10-18 18:37:44,642 [INFO] 127.0.0.1 - - [18/Oct/2024 18:37:44] "[35m[1mPOST /generate HTTP/1.1[0m" 500 - - Line 97 in _internal.py
+2024-10-18 18:40:36,104 [INFO] 127.0.0.1 - - [18/Oct/2024 18:40:36] "OPTIONS /health HTTP/1.1" 200 - - Line 97 in _internal.py
+2024-10-18 18:40:36,105 [INFO] 127.0.0.1 - - [18/Oct/2024 18:40:36] "OPTIONS /health HTTP/1.1" 200 - - Line 97 in _internal.py
+2024-10-18 18:40:36,111 [INFO] 127.0.0.1 - - [18/Oct/2024 18:40:36] "GET /health HTTP/1.1" 200 - - Line 97 in _internal.py
+2024-10-18 18:40:36,111 [INFO] 127.0.0.1 - - [18/Oct/2024 18:40:36] "GET /health HTTP/1.1" 200 - - Line 97 in _internal.py
+2024-10-18 18:40:36,116 [INFO] 127.0.0.1 - - [18/Oct/2024 18:40:36] "OPTIONS /generate HTTP/1.1" 200 - - Line 97 in _internal.py
+2024-10-18 18:40:36,118 [INFO] 127.0.0.1 - - [18/Oct/2024 18:40:36] "OPTIONS /generate HTTP/1.1" 200 - - Line 97 in _internal.py
+2024-10-18 18:40:36,123 [INFO] Starting story generation for prompt: a story on batman... - Line 159 in app.py
+2024-10-18 18:40:36,124 [ERROR] StoryGenerationError: {'error': True, 'message': "Error during story generation: agents_workflow() got an unexpected keyword argument 'story_prompt'", 'error_code': 'GENERATION_ERROR', 'location': 'generate:workflow_execution', 'timestamp': '2024-10-18T18:40:36.124195', 'type': 'StoryGenerationError'} - Line 51 in app.py
+2024-10-18 18:40:36,126 [INFO] 127.0.0.1 - - [18/Oct/2024 18:40:36] "[35m[1mPOST /generate HTTP/1.1[0m" 500 - - Line 97 in _internal.py
+2024-10-18 18:40:36,130 [INFO] Starting story generation for prompt: a story on batman... - Line 159 in app.py
+2024-10-18 18:40:36,134 [ERROR] StoryGenerationError: {'error': True, 'message': "Error during story generation: agents_workflow() got an unexpected keyword argument 'story_prompt'", 'error_code': 'GENERATION_ERROR', 'location': 'generate:workflow_execution', 'timestamp': '2024-10-18T18:40:36.134497', 'type': 'StoryGenerationError'} - Line 51 in app.py
+2024-10-18 18:40:36,140 [INFO] 127.0.0.1 - - [18/Oct/2024 18:40:36] "[35m[1mPOST /generate HTTP/1.1[0m" 500 - - Line 97 in _internal.py
+2024-10-18 18:42:17,718 [INFO] 127.0.0.1 - - [18/Oct/2024 18:42:17] "OPTIONS /health HTTP/1.1" 200 - - Line 97 in _internal.py
+2024-10-18 18:42:17,719 [INFO] 127.0.0.1 - - [18/Oct/2024 18:42:17] "OPTIONS /health HTTP/1.1" 200 - - Line 97 in _internal.py
+2024-10-18 18:42:17,724 [INFO] 127.0.0.1 - - [18/Oct/2024 18:42:17] "GET /health HTTP/1.1" 200 - - Line 97 in _internal.py
+2024-10-18 18:42:17,725 [INFO] 127.0.0.1 - - [18/Oct/2024 18:42:17] "GET /health HTTP/1.1" 200 - - Line 97 in _internal.py
+2024-10-18 18:42:17,736 [INFO] 127.0.0.1 - - [18/Oct/2024 18:42:17] "OPTIONS /generate HTTP/1.1" 200 - - Line 97 in _internal.py
+2024-10-18 18:42:17,737 [INFO] 127.0.0.1 - - [18/Oct/2024 18:42:17] "OPTIONS /generate HTTP/1.1" 200 - - Line 97 in _internal.py
+2024-10-18 18:42:17,745 [INFO] Starting story generation for prompt: batman... - Line 159 in app.py
+2024-10-18 18:42:17,746 [INFO] Starting story generation for prompt: batman... - Line 159 in app.py
+2024-10-18 18:42:17,751 [ERROR] StoryGenerationError: {'error': True, 'message': "Error during story generation: agents_workflow() got an unexpected keyword argument 'story_prompt'", 'error_code': 'GENERATION_ERROR', 'location': 'generate:workflow_execution', 'timestamp': '2024-10-18T18:42:17.751289', 'type': 'StoryGenerationError'} - Line 51 in app.py
+2024-10-18 18:42:17,749 [ERROR] StoryGenerationError: {'error': True, 'message': "Error during story generation: agents_workflow() got an unexpected keyword argument 'story_prompt'", 'error_code': 'GENERATION_ERROR', 'location': 'generate:workflow_execution', 'timestamp': '2024-10-18T18:42:17.749064', 'type': 'StoryGenerationError'} - Line 51 in app.py
+2024-10-18 18:42:17,753 [INFO] 127.0.0.1 - - [18/Oct/2024 18:42:17] "[35m[1mPOST /generate HTTP/1.1[0m" 500 - - Line 97 in _internal.py
+2024-10-18 18:42:17,754 [INFO] 127.0.0.1 - - [18/Oct/2024 18:42:17] "[35m[1mPOST /generate HTTP/1.1[0m" 500 - - Line 97 in _internal.py
+2024-10-18 18:43:37,807 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5055
+ * Running on http://192.168.29.168:5055 - Line 97 in _internal.py
+2024-10-18 18:43:37,809 [INFO] [33mPress CTRL+C to quit[0m - Line 97 in _internal.py
+2024-10-18 18:43:51,107 [INFO] 127.0.0.1 - - [18/Oct/2024 18:43:51] "OPTIONS /health HTTP/1.1" 200 - - Line 97 in _internal.py
+2024-10-18 18:43:51,109 [INFO] 127.0.0.1 - - [18/Oct/2024 18:43:51] "OPTIONS /health HTTP/1.1" 200 - - Line 97 in _internal.py
+2024-10-18 18:43:51,112 [INFO] 127.0.0.1 - - [18/Oct/2024 18:43:51] "GET /health HTTP/1.1" 200 - - Line 97 in _internal.py
+2024-10-18 18:43:51,113 [INFO] 127.0.0.1 - - [18/Oct/2024 18:43:51] "GET /health HTTP/1.1" 200 - - Line 97 in _internal.py
+2024-10-18 18:43:51,116 [INFO] 127.0.0.1 - - [18/Oct/2024 18:43:51] "OPTIONS /generate HTTP/1.1" 200 - - Line 97 in _internal.py
+2024-10-18 18:43:51,117 [INFO] 127.0.0.1 - - [18/Oct/2024 18:43:51] "OPTIONS /generate HTTP/1.1" 200 - - Line 97 in _internal.py
+2024-10-18 18:43:51,120 [INFO] Starting story generation for prompt: batman... - Line 159 in app.py
+2024-10-18 18:43:51,121 [INFO] Starting story generation for prompt: batman... - Line 159 in app.py
+2024-10-18 18:43:51,121 [ERROR] StoryGenerationError: {'error': True, 'message': "Error during story generation: agents_workflow() got an unexpected keyword argument 'text'", 'error_code': 'GENERATION_ERROR', 'location': 'generate:workflow_execution', 'timestamp': '2024-10-18T18:43:51.121188', 'type': 'StoryGenerationError'} - Line 51 in app.py
+2024-10-18 18:43:51,121 [ERROR] StoryGenerationError: {'error': True, 'message': "Error during story generation: agents_workflow() got an unexpected keyword argument 'text'", 'error_code': 'GENERATION_ERROR', 'location': 'generate:workflow_execution', 'timestamp': '2024-10-18T18:43:51.121438', 'type': 'StoryGenerationError'} - Line 51 in app.py
+2024-10-18 18:43:51,122 [INFO] 127.0.0.1 - - [18/Oct/2024 18:43:51] "[35m[1mPOST /generate HTTP/1.1[0m" 500 - - Line 97 in _internal.py
+2024-10-18 18:43:51,122 [INFO] 127.0.0.1 - - [18/Oct/2024 18:43:51] "[35m[1mPOST /generate HTTP/1.1[0m" 500 - - Line 97 in _internal.py
+2024-10-18 18:46:32,893 [INFO] 127.0.0.1 - - [18/Oct/2024 18:46:32] "OPTIONS /health HTTP/1.1" 200 - - Line 97 in _internal.py
+2024-10-18 18:46:32,896 [INFO] 127.0.0.1 - - [18/Oct/2024 18:46:32] "OPTIONS /health HTTP/1.1" 200 - - Line 97 in _internal.py
+2024-10-18 18:46:32,900 [INFO] 127.0.0.1 - - [18/Oct/2024 18:46:32] "GET /health HTTP/1.1" 200 - - Line 97 in _internal.py
+2024-10-18 18:46:32,901 [INFO] 127.0.0.1 - - [18/Oct/2024 18:46:32] "GET /health HTTP/1.1" 200 - - Line 97 in _internal.py
+2024-10-18 18:46:32,904 [INFO] 127.0.0.1 - - [18/Oct/2024 18:46:32] "OPTIONS /generate HTTP/1.1" 200 - - Line 97 in _internal.py
+2024-10-18 18:46:32,908 [INFO] 127.0.0.1 - - [18/Oct/2024 18:46:32] "OPTIONS /generate HTTP/1.1" 200 - - Line 97 in _internal.py
+2024-10-18 18:46:32,910 [INFO] Starting story generation for prompt: batam... - Line 159 in app.py
+2024-10-18 18:46:32,911 [ERROR] StoryGenerationError: {'error': True, 'message': "Error during story generation: agents_workflow() got an unexpected keyword argument 'text'", 'error_code': 'GENERATION_ERROR', 'location': 'generate:workflow_execution', 'timestamp': '2024-10-18T18:46:32.911155', 'type': 'StoryGenerationError'} - Line 51 in app.py
+2024-10-18 18:46:32,911 [INFO] 127.0.0.1 - - [18/Oct/2024 18:46:32] "[35m[1mPOST /generate HTTP/1.1[0m" 500 - - Line 97 in _internal.py
+2024-10-18 18:46:32,913 [INFO] Starting story generation for prompt: batam... - Line 159 in app.py
+2024-10-18 18:46:32,913 [ERROR] StoryGenerationError: {'error': True, 'message': "Error during story generation: agents_workflow() got an unexpected keyword argument 'text'", 'error_code': 'GENERATION_ERROR', 'location': 'generate:workflow_execution', 'timestamp': '2024-10-18T18:46:32.913300', 'type': 'StoryGenerationError'} - Line 51 in app.py
+2024-10-18 18:46:32,913 [INFO] 127.0.0.1 - - [18/Oct/2024 18:46:32] "[35m[1mPOST /generate HTTP/1.1[0m" 500 - - Line 97 in _internal.py
+2024-10-18 18:52:10,751 [INFO] 127.0.0.1 - - [18/Oct/2024 18:52:10] "OPTIONS /health HTTP/1.1" 200 - - Line 97 in _internal.py
+2024-10-18 18:52:10,753 [INFO] 127.0.0.1 - - [18/Oct/2024 18:52:10] "OPTIONS /health HTTP/1.1" 200 - - Line 97 in _internal.py
+2024-10-18 18:52:10,762 [INFO] 127.0.0.1 - - [18/Oct/2024 18:52:10] "GET /health HTTP/1.1" 200 - - Line 97 in _internal.py
+2024-10-18 18:52:10,764 [INFO] 127.0.0.1 - - [18/Oct/2024 18:52:10] "GET /health HTTP/1.1" 200 - - Line 97 in _internal.py
+2024-10-18 18:52:10,778 [INFO] 127.0.0.1 - - [18/Oct/2024 18:52:10] "OPTIONS /generate HTTP/1.1" 200 - - Line 97 in _internal.py
+2024-10-18 18:52:10,781 [INFO] 127.0.0.1 - - [18/Oct/2024 18:52:10] "OPTIONS /generate HTTP/1.1" 200 - - Line 97 in _internal.py
+2024-10-18 18:52:10,790 [INFO] Starting story generation for prompt: batam... - Line 159 in app.py
+2024-10-18 18:52:10,791 [INFO] Starting story generation for prompt: batam... - Line 159 in app.py
+2024-10-18 18:52:10,792 [ERROR] StoryGenerationError: {'error': True, 'message': "Error during story generation: agents_workflow() got an unexpected keyword argument 'text'", 'error_code': 'GENERATION_ERROR', 'location': 'generate:workflow_execution', 'timestamp': '2024-10-18T18:52:10.792501', 'type': 'StoryGenerationError'} - Line 51 in app.py
+2024-10-18 18:52:10,792 [ERROR] StoryGenerationError: {'error': True, 'message': "Error during story generation: agents_workflow() got an unexpected keyword argument 'text'", 'error_code': 'GENERATION_ERROR', 'location': 'generate:workflow_execution', 'timestamp': '2024-10-18T18:52:10.792948', 'type': 'StoryGenerationError'} - Line 51 in app.py
+2024-10-18 18:52:10,793 [INFO] 127.0.0.1 - - [18/Oct/2024 18:52:10] "[35m[1mPOST /generate HTTP/1.1[0m" 500 - - Line 97 in _internal.py
+2024-10-18 18:52:10,794 [INFO] 127.0.0.1 - - [18/Oct/2024 18:52:10] "[35m[1mPOST /generate HTTP/1.1[0m" 500 - - Line 97 in _internal.py
+2024-10-18 18:52:13,971 [INFO] 127.0.0.1 - - [18/Oct/2024 18:52:13] "GET /health HTTP/1.1" 200 - - Line 97 in _internal.py
+2024-10-18 18:52:13,973 [INFO] 127.0.0.1 - - [18/Oct/2024 18:52:13] "GET /health HTTP/1.1" 200 - - Line 97 in _internal.py
+2024-10-18 18:52:13,977 [INFO] Starting story generation for prompt: batam... - Line 159 in app.py
+2024-10-18 18:52:13,977 [ERROR] StoryGenerationError: {'error': True, 'message': "Error during story generation: agents_workflow() got an unexpected keyword argument 'text'", 'error_code': 'GENERATION_ERROR', 'location': 'generate:workflow_execution', 'timestamp': '2024-10-18T18:52:13.977422', 'type': 'StoryGenerationError'} - Line 51 in app.py
+2024-10-18 18:52:13,978 [INFO] 127.0.0.1 - - [18/Oct/2024 18:52:13] "[35m[1mPOST /generate HTTP/1.1[0m" 500 - - Line 97 in _internal.py
+2024-10-18 18:52:13,991 [INFO] Starting story generation for prompt: batam... - Line 159 in app.py
+2024-10-18 18:52:13,991 [ERROR] StoryGenerationError: {'error': True, 'message': "Error during story generation: agents_workflow() got an unexpected keyword argument 'text'", 'error_code': 'GENERATION_ERROR', 'location': 'generate:workflow_execution', 'timestamp': '2024-10-18T18:52:13.991609', 'type': 'StoryGenerationError'} - Line 51 in app.py
+2024-10-18 18:52:13,991 [INFO] 127.0.0.1 - - [18/Oct/2024 18:52:13] "[35m[1mPOST /generate HTTP/1.1[0m" 500 - - Line 97 in _internal.py
+2024-10-18 18:52:27,027 [INFO] 127.0.0.1 - - [18/Oct/2024 18:52:27] "OPTIONS /health HTTP/1.1" 200 - - Line 97 in _internal.py
+2024-10-18 18:52:27,028 [INFO] 127.0.0.1 - - [18/Oct/2024 18:52:27] "OPTIONS /health HTTP/1.1" 200 - - Line 97 in _internal.py
+2024-10-18 18:52:27,031 [INFO] 127.0.0.1 - - [18/Oct/2024 18:52:27] "GET /health HTTP/1.1" 200 - - Line 97 in _internal.py
+2024-10-18 18:52:27,032 [INFO] 127.0.0.1 - - [18/Oct/2024 18:52:27] "GET /health HTTP/1.1" 200 - - Line 97 in _internal.py
+2024-10-18 18:52:27,038 [INFO] 127.0.0.1 - - [18/Oct/2024 18:52:27] "OPTIONS /generate HTTP/1.1" 200 - - Line 97 in _internal.py
+2024-10-18 18:52:27,040 [INFO] 127.0.0.1 - - [18/Oct/2024 18:52:27] "OPTIONS /generate HTTP/1.1" 200 - - Line 97 in _internal.py
+2024-10-18 18:52:27,042 [INFO] Starting story generation for prompt: bataman... - Line 159 in app.py
+2024-10-18 18:52:27,042 [ERROR] StoryGenerationError: {'error': True, 'message': "Error during story generation: agents_workflow() got an unexpected keyword argument 'text'", 'error_code': 'GENERATION_ERROR', 'location': 'generate:workflow_execution', 'timestamp': '2024-10-18T18:52:27.042685', 'type': 'StoryGenerationError'} - Line 51 in app.py
+2024-10-18 18:52:27,043 [INFO] 127.0.0.1 - - [18/Oct/2024 18:52:27] "[35m[1mPOST /generate HTTP/1.1[0m" 500 - - Line 97 in _internal.py
+2024-10-18 18:52:27,043 [INFO] Starting story generation for prompt: bataman... - Line 159 in app.py
+2024-10-18 18:52:27,043 [ERROR] StoryGenerationError: {'error': True, 'message': "Error during story generation: agents_workflow() got an unexpected keyword argument 'text'", 'error_code': 'GENERATION_ERROR', 'location': 'generate:workflow_execution', 'timestamp': '2024-10-18T18:52:27.043857', 'type': 'StoryGenerationError'} - Line 51 in app.py
+2024-10-18 18:52:27,044 [INFO] 127.0.0.1 - - [18/Oct/2024 18:52:27] "[35m[1mPOST /generate HTTP/1.1[0m" 500 - - Line 97 in _internal.py
+2024-10-18 18:54:33,339 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5055
+ * Running on http://192.168.29.168:5055 - Line 97 in _internal.py
+2024-10-18 18:54:33,340 [INFO] [33mPress CTRL+C to quit[0m - Line 97 in _internal.py
+2024-10-18 18:54:42,076 [INFO] 127.0.0.1 - - [18/Oct/2024 18:54:42] "OPTIONS /health HTTP/1.1" 200 - - Line 97 in _internal.py
+2024-10-18 18:54:42,080 [INFO] 127.0.0.1 - - [18/Oct/2024 18:54:42] "OPTIONS /health HTTP/1.1" 200 - - Line 97 in _internal.py
+2024-10-18 18:54:42,082 [INFO] 127.0.0.1 - - [18/Oct/2024 18:54:42] "GET /health HTTP/1.1" 200 - - Line 97 in _internal.py
+2024-10-18 18:54:42,084 [INFO] 127.0.0.1 - - [18/Oct/2024 18:54:42] "GET /health HTTP/1.1" 200 - - Line 97 in _internal.py
+2024-10-18 18:54:42,094 [INFO] 127.0.0.1 - - [18/Oct/2024 18:54:42] "OPTIONS /generate HTTP/1.1" 200 - - Line 97 in _internal.py
+2024-10-18 18:54:42,097 [INFO] 127.0.0.1 - - [18/Oct/2024 18:54:42] "OPTIONS /generate HTTP/1.1" 200 - - Line 97 in _internal.py
+2024-10-18 18:54:42,099 [INFO] Starting story generation for prompt: bataman... - Line 159 in app.py
+2024-10-18 18:54:42,114 [INFO] Starting story generation for prompt: bataman... - Line 159 in app.py
+2024-10-18 18:54:42,141 [WARNING] Overriding of current TracerProvider is not allowed - Line 538 in __init__.py
+2024-10-18 18:54:42,142 [WARNING] Overriding of current TracerProvider is not allowed - Line 538 in __init__.py
+2024-10-18 18:54:42,159 [INFO] 
+LiteLLM completion() model= gpt-4o-mini; provider = openai - Line 2686 in utils.py
+2024-10-18 18:54:42,168 [INFO] 
+LiteLLM completion() model= gpt-4o-mini; provider = openai - Line 2686 in utils.py
+2024-10-18 18:54:47,511 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK" - Line 1038 in _client.py
+2024-10-18 18:54:47,516 [INFO] Wrapper: Completed Call, calling success_handler - Line 937 in utils.py
+2024-10-18 18:54:47,562 [INFO] 
+LiteLLM completion() model= gpt-4o-mini; provider = openai - Line 2686 in utils.py
+2024-10-18 18:54:48,619 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK" - Line 1038 in _client.py
+2024-10-18 18:54:48,623 [INFO] Wrapper: Completed Call, calling success_handler - Line 937 in utils.py
+2024-10-18 18:54:48,680 [INFO] 
+LiteLLM completion() model= gpt-4o-mini; provider = openai - Line 2686 in utils.py
+2024-10-18 18:54:54,014 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK" - Line 1038 in _client.py
+2024-10-18 18:54:54,018 [INFO] Wrapper: Completed Call, calling success_handler - Line 937 in utils.py
+2024-10-18 18:54:54,046 [INFO] 
+LiteLLM completion() model= gpt-4o-mini; provider = openai - Line 2686 in utils.py
+2024-10-18 18:54:56,226 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK" - Line 1038 in _client.py
+2024-10-18 18:54:56,231 [INFO] Wrapper: Completed Call, calling success_handler - Line 937 in utils.py
+2024-10-18 18:54:56,272 [INFO] 
+LiteLLM completion() model= gpt-4o-mini; provider = openai - Line 2686 in utils.py
+2024-10-18 18:54:58,990 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK" - Line 1038 in _client.py
+2024-10-18 18:54:58,993 [INFO] Wrapper: Completed Call, calling success_handler - Line 937 in utils.py
+2024-10-18 18:54:59,012 [INFO] 
+LiteLLM completion() model= gpt-4o-mini; provider = openai - Line 2686 in utils.py
+2024-10-18 18:55:03,081 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK" - Line 1038 in _client.py
+2024-10-18 18:55:03,087 [INFO] Wrapper: Completed Call, calling success_handler - Line 937 in utils.py
+2024-10-18 18:55:03,118 [INFO] 
+LiteLLM completion() model= gpt-4o-mini; provider = openai - Line 2686 in utils.py
+2024-10-18 18:55:59,156 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK" - Line 1038 in _client.py
+2024-10-18 18:55:59,407 [INFO] Wrapper: Completed Call, calling success_handler - Line 937 in utils.py
+2024-10-18 18:56:00,084 [INFO] Story generation completed successfully - Line 196 in app.py
+2024-10-18 18:56:00,085 [INFO] 127.0.0.1 - - [18/Oct/2024 18:56:00] "POST /generate HTTP/1.1" 200 - - Line 97 in _internal.py
+2024-10-18 18:56:01,596 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK" - Line 1038 in _client.py
+2024-10-18 18:56:01,600 [INFO] Wrapper: Completed Call, calling success_handler - Line 937 in utils.py
+2024-10-18 18:56:02,322 [INFO] Story generation completed successfully - Line 196 in app.py
+2024-10-18 18:56:02,322 [INFO] 127.0.0.1 - - [18/Oct/2024 18:56:02] "POST /generate HTTP/1.1" 200 - - Line 97 in _internal.py
+2024-10-18 18:57:43,809 [INFO] 127.0.0.1 - - [18/Oct/2024 18:57:43] "OPTIONS /health HTTP/1.1" 200 - - Line 97 in _internal.py
+2024-10-18 18:57:43,810 [INFO] 127.0.0.1 - - [18/Oct/2024 18:57:43] "OPTIONS /health HTTP/1.1" 200 - - Line 97 in _internal.py
+2024-10-18 18:57:43,813 [INFO] 127.0.0.1 - - [18/Oct/2024 18:57:43] "GET /health HTTP/1.1" 200 - - Line 97 in _internal.py
+2024-10-18 18:57:43,814 [INFO] 127.0.0.1 - - [18/Oct/2024 18:57:43] "GET /health HTTP/1.1" 200 - - Line 97 in _internal.py
+2024-10-18 18:57:43,824 [INFO] 127.0.0.1 - - [18/Oct/2024 18:57:43] "OPTIONS /generate HTTP/1.1" 200 - - Line 97 in _internal.py
+2024-10-18 18:57:43,827 [INFO] 127.0.0.1 - - [18/Oct/2024 18:57:43] "OPTIONS /generate HTTP/1.1" 200 - - Line 97 in _internal.py
+2024-10-18 18:57:43,831 [INFO] Starting story generation for prompt: bataman... - Line 159 in app.py
+2024-10-18 18:57:43,846 [INFO] Starting story generation for prompt: bataman... - Line 159 in app.py
+2024-10-18 18:57:43,873 [WARNING] Overriding of current TracerProvider is not allowed - Line 538 in __init__.py
+2024-10-18 18:57:43,873 [WARNING] Overriding of current TracerProvider is not allowed - Line 538 in __init__.py
+2024-10-18 18:57:43,887 [INFO] 
+LiteLLM completion() model= gpt-4o-mini; provider = openai - Line 2686 in utils.py
+2024-10-18 18:57:43,903 [INFO] 
+LiteLLM completion() model= gpt-4o-mini; provider = openai - Line 2686 in utils.py
+2024-10-18 18:57:49,233 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK" - Line 1038 in _client.py
+2024-10-18 18:57:49,237 [INFO] Wrapper: Completed Call, calling success_handler - Line 937 in utils.py
+2024-10-18 18:57:49,281 [INFO] 
+LiteLLM completion() model= gpt-4o-mini; provider = openai - Line 2686 in utils.py
+2024-10-18 18:57:50,154 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK" - Line 1038 in _client.py
+2024-10-18 18:57:50,158 [INFO] Wrapper: Completed Call, calling success_handler - Line 937 in utils.py
+2024-10-18 18:57:50,206 [INFO] 
+LiteLLM completion() model= gpt-4o-mini; provider = openai - Line 2686 in utils.py
+2024-10-18 19:02:47,013 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5055
+ * Running on http://192.168.29.168:5055 - Line 97 in _internal.py
+2024-10-18 19:02:47,015 [INFO] [33mPress CTRL+C to quit[0m - Line 97 in _internal.py
+2024-10-18 19:02:55,689 [INFO] 127.0.0.1 - - [18/Oct/2024 19:02:55] "OPTIONS /health HTTP/1.1" 200 - - Line 97 in _internal.py
+2024-10-18 19:02:55,690 [INFO] 127.0.0.1 - - [18/Oct/2024 19:02:55] "OPTIONS /health HTTP/1.1" 200 - - Line 97 in _internal.py
+2024-10-18 19:02:55,695 [INFO] 127.0.0.1 - - [18/Oct/2024 19:02:55] "GET /health HTTP/1.1" 200 - - Line 97 in _internal.py
+2024-10-18 19:02:55,698 [INFO] 127.0.0.1 - - [18/Oct/2024 19:02:55] "GET /health HTTP/1.1" 200 - - Line 97 in _internal.py
+2024-10-18 19:02:55,702 [INFO] 127.0.0.1 - - [18/Oct/2024 19:02:55] "OPTIONS /generate HTTP/1.1" 200 - - Line 97 in _internal.py
+2024-10-18 19:02:55,715 [INFO] Starting story generation for prompt: bataman... - Line 159 in app.py
+2024-10-18 19:02:55,720 [INFO] Starting story generation for prompt: bataman... - Line 159 in app.py
+2024-10-18 19:02:55,751 [WARNING] Overriding of current TracerProvider is not allowed - Line 538 in __init__.py
+2024-10-18 19:02:55,774 [INFO] 
+LiteLLM completion() model= gpt-4o-mini; provider = openai - Line 2686 in utils.py
+2024-10-18 19:02:55,777 [INFO] 
+LiteLLM completion() model= gpt-4o-mini; provider = openai - Line 2686 in utils.py
+2024-10-18 19:03:01,525 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK" - Line 1038 in _client.py
+2024-10-18 19:03:01,548 [INFO] Wrapper: Completed Call, calling success_handler - Line 937 in utils.py
+2024-10-18 19:03:01,583 [INFO] 
+LiteLLM completion() model= gpt-4o-mini; provider = openai - Line 2686 in utils.py
+2024-10-18 19:03:02,605 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK" - Line 1038 in _client.py
+2024-10-18 19:03:02,608 [INFO] Wrapper: Completed Call, calling success_handler - Line 937 in utils.py
+2024-10-18 19:03:02,664 [INFO] 
+LiteLLM completion() model= gpt-4o-mini; provider = openai - Line 2686 in utils.py
+2024-10-18 19:03:06,987 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK" - Line 1038 in _client.py
+2024-10-18 19:03:06,989 [INFO] Wrapper: Completed Call, calling success_handler - Line 937 in utils.py
+2024-10-18 19:03:07,010 [INFO] 
+LiteLLM completion() model= gpt-4o-mini; provider = openai - Line 2686 in utils.py
+2024-10-18 19:03:09,796 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK" - Line 1038 in _client.py
+2024-10-18 19:03:09,799 [INFO] Wrapper: Completed Call, calling success_handler - Line 937 in utils.py
+2024-10-18 19:03:09,838 [INFO] 
+LiteLLM completion() model= gpt-4o-mini; provider = openai - Line 2686 in utils.py
+2024-10-18 19:03:12,106 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK" - Line 1038 in _client.py
+2024-10-18 19:03:12,108 [INFO] Wrapper: Completed Call, calling success_handler - Line 937 in utils.py
+2024-10-18 19:03:12,132 [INFO] 
+LiteLLM completion() model= gpt-4o-mini; provider = openai - Line 2686 in utils.py
+2024-10-18 19:03:15,179 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK" - Line 1038 in _client.py
+2024-10-18 19:03:15,182 [INFO] Wrapper: Completed Call, calling success_handler - Line 937 in utils.py
+2024-10-18 19:03:15,207 [INFO] 
+LiteLLM completion() model= gpt-4o-mini; provider = openai - Line 2686 in utils.py
+2024-10-18 19:09:03,622 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5055
+ * Running on http://192.168.29.168:5055 - Line 97 in _internal.py
+2024-10-18 19:09:03,623 [INFO] [33mPress CTRL+C to quit[0m - Line 97 in _internal.py
+2024-10-18 19:09:10,188 [INFO] 127.0.0.1 - - [18/Oct/2024 19:09:10] "OPTIONS /health HTTP/1.1" 200 - - Line 97 in _internal.py
+2024-10-18 19:09:10,190 [INFO] 127.0.0.1 - - [18/Oct/2024 19:09:10] "OPTIONS /health HTTP/1.1" 200 - - Line 97 in _internal.py
+2024-10-18 19:09:10,194 [INFO] 127.0.0.1 - - [18/Oct/2024 19:09:10] "GET /health HTTP/1.1" 200 - - Line 97 in _internal.py
+2024-10-18 19:09:10,195 [INFO] 127.0.0.1 - - [18/Oct/2024 19:09:10] "GET /health HTTP/1.1" 200 - - Line 97 in _internal.py
+2024-10-18 19:09:10,201 [INFO] 127.0.0.1 - - [18/Oct/2024 19:09:10] "OPTIONS /generate HTTP/1.1" 200 - - Line 97 in _internal.py
+2024-10-18 19:09:10,204 [INFO] 127.0.0.1 - - [18/Oct/2024 19:09:10] "OPTIONS /generate HTTP/1.1" 200 - - Line 97 in _internal.py
+2024-10-18 19:09:10,210 [INFO] Starting story generation for prompt: bataman... - Line 158 in app.py
+2024-10-18 19:09:10,211 [INFO] Starting story generation for prompt: bataman... - Line 158 in app.py
+2024-10-18 19:09:10,230 [WARNING] Overriding of current TracerProvider is not allowed - Line 538 in __init__.py
+2024-10-18 19:09:10,250 [INFO] 
+LiteLLM completion() model= gpt-4o-mini; provider = openai - Line 2686 in utils.py
+2024-10-18 19:09:10,252 [INFO] 
+LiteLLM completion() model= gpt-4o-mini; provider = openai - Line 2686 in utils.py
+2024-10-18 19:09:15,166 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK" - Line 1038 in _client.py
+2024-10-18 19:09:15,189 [INFO] Wrapper: Completed Call, calling success_handler - Line 937 in utils.py
+2024-10-18 19:09:15,195 [INFO] 
+LiteLLM completion() model= gpt-4o-mini; provider = openai - Line 2686 in utils.py
+2024-10-18 19:09:16,045 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK" - Line 1038 in _client.py
+2024-10-18 19:09:16,049 [INFO] Wrapper: Completed Call, calling success_handler - Line 937 in utils.py
+2024-10-18 19:09:16,101 [INFO] 
+LiteLLM completion() model= gpt-4o-mini; provider = openai - Line 2686 in utils.py
+2024-10-18 19:09:23,970 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK" - Line 1038 in _client.py
+2024-10-18 19:09:23,974 [INFO] Wrapper: Completed Call, calling success_handler - Line 937 in utils.py
+2024-10-18 19:09:24,006 [INFO] 
+LiteLLM completion() model= gpt-4o-mini; provider = openai - Line 2686 in utils.py
+2024-10-18 19:09:25,152 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK" - Line 1038 in _client.py
+2024-10-18 19:09:25,155 [INFO] Wrapper: Completed Call, calling success_handler - Line 937 in utils.py
+2024-10-18 19:09:25,196 [INFO] 
+LiteLLM completion() model= gpt-4o-mini; provider = openai - Line 2686 in utils.py
+2024-10-18 19:09:29,225 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK" - Line 1038 in _client.py
+2024-10-18 19:09:29,229 [INFO] Wrapper: Completed Call, calling success_handler - Line 937 in utils.py
+2024-10-18 19:09:29,255 [INFO] 
+LiteLLM completion() model= gpt-4o-mini; provider = openai - Line 2686 in utils.py
+2024-10-18 19:09:29,759 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK" - Line 1038 in _client.py
+2024-10-18 19:09:29,763 [INFO] Wrapper: Completed Call, calling success_handler - Line 937 in utils.py
+2024-10-18 19:09:29,785 [INFO] 
+LiteLLM completion() model= gpt-4o-mini; provider = openai - Line 2686 in utils.py
+2024-10-18 19:16:47,432 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5055
+ * Running on http://192.168.29.168:5055 - Line 97 in _internal.py
+2024-10-18 19:16:47,432 [INFO] [33mPress CTRL+C to quit[0m - Line 97 in _internal.py
+2024-10-18 19:16:50,216 [INFO] 127.0.0.1 - - [18/Oct/2024 19:16:50] "[33mOPTIONS /health HTTP/1.1[0m" 404 - - Line 97 in _internal.py
+2024-10-18 19:16:50,218 [INFO] 127.0.0.1 - - [18/Oct/2024 19:16:50] "[33mOPTIONS /health HTTP/1.1[0m" 404 - - Line 97 in _internal.py
+2024-10-18 19:17:49,320 [INFO] 127.0.0.1 - - [18/Oct/2024 19:17:49] "[33mOPTIONS /health HTTP/1.1[0m" 404 - - Line 97 in _internal.py
+2024-10-18 19:27:15,085 [INFO] 127.0.0.1 - - [18/Oct/2024 19:27:15] "[33mGET /health HTTP/1.1[0m" 404 - - Line 97 in _internal.py
+2024-10-18 19:27:15,090 [INFO] 127.0.0.1 - - [18/Oct/2024 19:27:15] "[33mGET /health HTTP/1.1[0m" 404 - - Line 97 in _internal.py
+2024-10-18 19:27:25,514 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5055
+ * Running on http://192.168.29.168:5055
+2024-10-18 19:27:25,515 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-18 19:27:31,694 [INFO] 127.0.0.1 - - [18/Oct/2024 19:27:31] "[33mGET /health HTTP/1.1[0m" 404 -
+2024-10-18 19:27:31,697 [INFO] 127.0.0.1 - - [18/Oct/2024 19:27:31] "[33mGET /health HTTP/1.1[0m" 404 -
+2024-10-18 19:27:53,038 [INFO] 192.168.29.168 - - [18/Oct/2024 19:27:53] "[33mGET / HTTP/1.1[0m" 404 -
+2024-10-18 19:27:56,303 [INFO] 127.0.0.1 - - [18/Oct/2024 19:27:56] "[33mGET / HTTP/1.1[0m" 404 -
+2024-10-18 19:30:36,826 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:3333
+ * Running on http://192.168.29.168:3333
+2024-10-18 19:30:36,826 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-18 19:30:40,571 [INFO] 127.0.0.1 - - [18/Oct/2024 19:30:40] "[33mGET / HTTP/1.1[0m" 404 -
+2024-10-18 19:30:40,620 [INFO] 127.0.0.1 - - [18/Oct/2024 19:30:40] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 -
+2024-10-18 19:30:40,630 [INFO] 127.0.0.1 - - [18/Oct/2024 19:30:40] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 -
+2024-10-18 19:30:41,199 [INFO] 127.0.0.1 - - [18/Oct/2024 19:30:41] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-18 19:33:52,444 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:3333
+ * Running on http://192.168.29.168:3333
+2024-10-18 19:33:52,444 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-18 19:33:59,213 [INFO] 192.168.29.168 - - [18/Oct/2024 19:33:59] "[33mGET / HTTP/1.1[0m" 404 -
+2024-10-18 19:33:59,282 [INFO] 192.168.29.168 - - [18/Oct/2024 19:33:59] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 -
+2024-10-18 19:33:59,294 [INFO] 192.168.29.168 - - [18/Oct/2024 19:33:59] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 -
+2024-10-18 19:33:59,728 [INFO] 192.168.29.168 - - [18/Oct/2024 19:33:59] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-18 19:34:06,883 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5055
+ * Running on http://192.168.29.168:5055
+2024-10-18 19:34:06,884 [INFO] [33mPress CTRL+C to quit[0m
+2024-10-18 19:34:12,501 [INFO] 192.168.29.168 - - [18/Oct/2024 19:34:12] "[33mGET / HTTP/1.1[0m" 404 -
+2024-10-18 19:35:28,714 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5055
+ * Running on http://192.168.29.168:5055 - Line 97 in _internal.py
+2024-10-18 19:35:28,714 [INFO] [33mPress CTRL+C to quit[0m - Line 97 in _internal.py
+2024-10-18 19:35:39,508 [INFO] 192.168.29.168 - - [18/Oct/2024 19:35:39] "GET / HTTP/1.1" 200 - - Line 97 in _internal.py
+2024-10-18 19:44:25,397 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5055
+ * Running on http://192.168.29.168:5055 - Line 97 in _internal.py
+2024-10-18 19:44:25,398 [INFO] [33mPress CTRL+C to quit[0m - Line 97 in _internal.py
+2024-10-18 19:44:32,254 [INFO] 127.0.0.1 - - [18/Oct/2024 19:44:32] "GET /health HTTP/1.1" 200 - - Line 97 in _internal.py
+2024-10-18 19:44:32,257 [INFO] 127.0.0.1 - - [18/Oct/2024 19:44:32] "GET /health HTTP/1.1" 200 - - Line 97 in _internal.py
+2024-10-18 19:44:32,268 [INFO] 127.0.0.1 - - [18/Oct/2024 19:44:32] "OPTIONS /generate HTTP/1.1" 200 - - Line 97 in _internal.py
+2024-10-18 19:44:32,268 [INFO] 127.0.0.1 - - [18/Oct/2024 19:44:32] "OPTIONS /generate HTTP/1.1" 200 - - Line 97 in _internal.py
+2024-10-18 19:44:32,271 [INFO] Starting story generation for prompt: bataman... - Line 163 in app.py
+2024-10-18 19:44:32,272 [INFO] Starting story generation for prompt: bataman... - Line 163 in app.py
+2024-10-18 19:44:32,282 [INFO] 127.0.0.1 - - [18/Oct/2024 19:44:32] "[33mGET /stream/session-1729260872263 HTTP/1.1[0m" 404 - - Line 97 in _internal.py
+2024-10-18 19:44:32,313 [WARNING] Overriding of current TracerProvider is not allowed - Line 538 in __init__.py
+2024-10-18 19:44:32,335 [INFO] 
+LiteLLM completion() model= gpt-4o-mini; provider = openai - Line 2686 in utils.py
+2024-10-18 19:44:32,339 [INFO] 
+LiteLLM completion() model= gpt-4o-mini; provider = openai - Line 2686 in utils.py
+2024-10-18 19:44:40,056 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK" - Line 1038 in _client.py
+2024-10-18 19:44:40,088 [INFO] Wrapper: Completed Call, calling success_handler - Line 937 in utils.py
+2024-10-18 19:44:40,142 [INFO] 
+LiteLLM completion() model= gpt-4o-mini; provider = openai - Line 2686 in utils.py
+2024-10-18 19:44:42,106 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK" - Line 1038 in _client.py
+2024-10-18 19:56:22,350 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5055
+ * Running on http://192.168.29.168:5055 - Line 97 in _internal.py
+2024-10-18 19:56:22,352 [INFO] [33mPress CTRL+C to quit[0m - Line 97 in _internal.py
+2024-10-18 19:56:31,912 [INFO] 127.0.0.1 - - [18/Oct/2024 19:56:31] "GET /health HTTP/1.1" 200 - - Line 97 in _internal.py
+2024-10-18 19:56:31,913 [INFO] 127.0.0.1 - - [18/Oct/2024 19:56:31] "GET /health HTTP/1.1" 200 - - Line 97 in _internal.py
+2024-10-18 19:56:31,929 [INFO] 127.0.0.1 - - [18/Oct/2024 19:56:31] "OPTIONS /generate HTTP/1.1" 200 - - Line 97 in _internal.py
+2024-10-18 19:56:31,932 [INFO] 127.0.0.1 - - [18/Oct/2024 19:56:31] "OPTIONS /generate HTTP/1.1" 200 - - Line 97 in _internal.py
+2024-10-18 19:56:31,943 [INFO] Starting story generation for prompt: bataman... - Line 163 in app.py
+2024-10-18 19:56:31,948 [INFO] 127.0.0.1 - - [18/Oct/2024 19:56:31] "[33mGET /stream/session-1729261591924 HTTP/1.1[0m" 404 - - Line 97 in _internal.py
+2024-10-18 19:56:31,959 [INFO] Starting story generation for prompt: bataman... - Line 163 in app.py
+2024-10-18 19:56:32,002 [WARNING] Overriding of current TracerProvider is not allowed - Line 538 in __init__.py
+2024-10-18 19:56:32,032 [INFO] 
+LiteLLM completion() model= gpt-4o-mini; provider = openai - Line 2686 in utils.py
+2024-10-18 19:56:32,037 [INFO] 
+LiteLLM completion() model= gpt-4o-mini; provider = openai - Line 2686 in utils.py
+2024-10-18 19:56:39,123 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK" - Line 1038 in _client.py
+2024-10-18 19:56:39,161 [INFO] Wrapper: Completed Call, calling success_handler - Line 937 in utils.py
+2024-10-18 19:56:39,198 [WARNING] Already shutdown, dropping span. - Line 219 in __init__.py
+2024-10-18 19:56:39,199 [INFO] 
+LiteLLM completion() model= gpt-4o-mini; provider = openai - Line 2686 in utils.py
+2024-10-18 20:09:42,184 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5055
+ * Running on http://192.168.29.168:5055 - Line 97 in _internal.py
+2024-10-18 20:09:42,185 [INFO] [33mPress CTRL+C to quit[0m - Line 97 in _internal.py
+2024-10-18 20:09:45,697 [INFO] 127.0.0.1 - - [18/Oct/2024 20:09:45] "GET /health HTTP/1.1" 200 - - Line 97 in _internal.py
+2024-10-18 20:09:45,699 [INFO] 127.0.0.1 - - [18/Oct/2024 20:09:45] "GET /health HTTP/1.1" 200 - - Line 97 in _internal.py
+2024-10-18 20:09:45,715 [INFO] 127.0.0.1 - - [18/Oct/2024 20:09:45] "OPTIONS /generate HTTP/1.1" 200 - - Line 97 in _internal.py
+2024-10-18 20:09:45,719 [INFO] 127.0.0.1 - - [18/Oct/2024 20:09:45] "OPTIONS /generate HTTP/1.1" 200 - - Line 97 in _internal.py
+2024-10-18 20:09:45,754 [INFO] 127.0.0.1 - - [18/Oct/2024 20:09:45] "[33mGET /stream/session-1729262385704 HTTP/1.1[0m" 404 - - Line 97 in _internal.py
+2024-10-18 20:09:45,757 [INFO] Starting story generation for prompt: bataman... - Line 158 in app.py
+2024-10-18 20:09:45,776 [INFO] Starting story generation for prompt: bataman... - Line 158 in app.py
+2024-10-18 20:09:45,845 [WARNING] Overriding of current TracerProvider is not allowed - Line 538 in __init__.py
+2024-10-18 20:09:45,929 [INFO] 
+LiteLLM completion() model= gpt-4o-mini; provider = openai - Line 2686 in utils.py
+2024-10-18 20:09:45,933 [INFO] 
+LiteLLM completion() model= gpt-4o-mini; provider = openai - Line 2686 in utils.py
+2024-10-18 20:09:51,555 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK" - Line 1038 in _client.py
+2024-10-18 20:09:51,583 [INFO] Wrapper: Completed Call, calling success_handler - Line 937 in utils.py
+2024-10-18 20:09:51,624 [INFO] 
+LiteLLM completion() model= gpt-4o-mini; provider = openai - Line 2686 in utils.py
+2024-10-18 20:09:54,055 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK" - Line 1038 in _client.py
+2024-10-18 20:09:54,059 [INFO] Wrapper: Completed Call, calling success_handler - Line 937 in utils.py
+2024-10-18 20:09:54,111 [INFO] 
+LiteLLM completion() model= gpt-4o-mini; provider = openai - Line 2686 in utils.py

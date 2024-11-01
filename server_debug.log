@@ -1,0 +1,25 @@
+2024-10-18 19:34:32,651 INFO [ server_diagnostic.py:23] Attempting to import app.py...
+2024-10-18 19:34:32,660 INFO [ server_diagnostic.py:27] Checking Flask app configuration...
+2024-10-18 19:34:32,660 INFO [ server_diagnostic.py:31] Verifying agents_workflow module...
+2024-10-18 19:34:35,014 ERROR [ server_diagnostic.py:47] Unexpected error: unsupported operand type(s) for |: 'type' and 'NoneType'
+Traceback (most recent call last):
+  File "/Users/sreedharpavushetty/Desktop/text2story/website/check/ server_diagnostic.py", line 32, in run_server_with_debug
+    from agents_workflow_ import agents_workflow
+  File "/Users/sreedharpavushetty/Desktop/text2story/website/check/agents_workflow_.py", line 21, in <module>
+    from crewai import Agent, Crew, Task, Process, crew
+  File "/Users/sreedharpavushetty/Desktop/text2story/website/check/yash/lib/python3.9/site-packages/crewai/__init__.py", line 1, in <module>
+    from crewai.agent import Agent
+  File "/Users/sreedharpavushetty/Desktop/text2story/website/check/yash/lib/python3.9/site-packages/crewai/agent.py", line 22, in <module>
+    from crewai.agents import (
+  File "/Users/sreedharpavushetty/Desktop/text2story/website/check/yash/lib/python3.9/site-packages/crewai/agents/__init__.py", line 2, in <module>
+    from .executor import CrewAgentExecutor
+  File "/Users/sreedharpavushetty/Desktop/text2story/website/check/yash/lib/python3.9/site-packages/crewai/agents/executor.py", line 16, in <module>
+    from crewai.utilities import I18N
+  File "/Users/sreedharpavushetty/Desktop/text2story/website/check/yash/lib/python3.9/site-packages/crewai/utilities/__init__.py", line 4, in <module>
+    from .rpm_controller import RPMController
+  File "/Users/sreedharpavushetty/Desktop/text2story/website/check/yash/lib/python3.9/site-packages/crewai/utilities/rpm_controller.py", line 10, in <module>
+    class RPMController(BaseModel):
+  File "/Users/sreedharpavushetty/Desktop/text2story/website/check/yash/lib/python3.9/site-packages/crewai/utilities/rpm_controller.py", line 15, in RPMController
+    _timer: threading.Timer | None = PrivateAttr(default=None)
+TypeError: unsupported operand type(s) for |: 'type' and 'NoneType'
+
